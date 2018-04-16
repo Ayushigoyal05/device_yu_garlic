@@ -47,6 +47,10 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := lineage_garlic_defconfig
 TARGET_KERNEL_SOURCE := kernel/yu/msm8937
 
+ANDROID_COMPILE_WITH_JACK_AND_JILL := false
+
+
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
